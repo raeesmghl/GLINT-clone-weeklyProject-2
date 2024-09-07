@@ -164,13 +164,8 @@ function hideItems() {
 
 
 // go-up button
-
-
-
 window.addEventListener('scroll', () => {
-
     let scrollBtn = document.getElementById('up-btn');
-
     this.scrollY >= 350 ? scrollBtn.classList.add('show-up-btn') : scrollBtn.classList.remove('show-up-btn');
 
 })
@@ -178,11 +173,7 @@ window.addEventListener('scroll', () => {
 
 
 // menu button background change functionality 
-
-
-
 window.addEventListener('scroll', () => {
-
     this.scrollY >= 350 ? menuButton.style.backgroundColor = 'var(--black)' : menuButton.style.backgroundColor = 'transparent'
 })
 
