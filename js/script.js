@@ -86,43 +86,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-
-
-// let menuButton = document.getElementById('toggle-menu-button');
-// let menuSidebar = document.getElementById('menu-sidebar');
-
-// let sidebarHeader = document.getElementById('sidebar-head');
-
-// let sidebarItems = document.getElementById('sidebar-items');
-
-// let sidebarMediaIcons = document.getElementById('sidebar-media-icons')
-
-
-// menuButton.addEventListener('click',()=>{
-//     menuSidebar.style.translate = '0';
-// })
-
-// document.addEventListener('click',(event)=>{
-
-//     let notToHide = menuSidebar.contains(event.target) || menuButton.contains(event.target);
-
-
-//     let hideOnIT = sidebarHeader.contains(event.target) || sidebarItems.contains(event.target) || sidebarMediaIcons.contains(event.target);
-
-
-//     if(notToHide){
-//         menuSidebar.style.translate = '0%';
-//     }
-//     if(hideOnIT){
-//         menuSidebar.style.translate = '100%'
-//     }
-// })
-
-
-
-
-
-
 // copied from chatGPT , its cleaner than my code
 const menuButton = document.getElementById('toggle-menu-button');
 const menuSidebar = document.getElementById('menu-sidebar');
@@ -136,13 +99,13 @@ document.addEventListener('DOMContentLoaded', function () {
     // Function to show sidebar
     function showSidebar() {
         menuSidebar.style.translate = '0%';
-        setTimeout(showItems, 300)
+        setTimeout(showItems, 300) // it takes some time
     }
 
     // Function to hide sidebar
     function hideSidebar() {
         menuSidebar.style.translate = '100%';
-        setTimeout(hideItems, 0)
+        setTimeout(hideItems, 0) // immediately hides
 
     }
 
