@@ -235,25 +235,10 @@ const swiper = new Swiper('.swiper', {
     }
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// 
 const testimonialsSlider = new Swiper('#testimonials', {
     direction: 'horizontal',
     loop: true,
-
-
 });
 
 
