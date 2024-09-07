@@ -1,8 +1,6 @@
 
 
 
-// let counterEl = document.querySelectorAll('.counter-box h2');
-
 
 // counterEl.forEach((el) => {
 //     el.innerHTML = '0';
