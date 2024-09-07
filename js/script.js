@@ -1,34 +1,5 @@
 
 
-
-
-// counterEl.forEach((el) => {
-//     el.innerHTML = '0';
-
-//     countingFunction()
-//     function innerFunction() {
-
-//         let currentValue = Number(el.innerHTML);
-
-//         let finalValue = el.getAttribute('data-final');
-
-//         let addNewValue = finalValue / 30;
-
-//         // let replaceValue = Math.ceil(addNewValue) + currentValue;
-//         let replaceValue = Math.floor(addNewValue) + currentValue;
-
-
-//         if (currentValue < finalValue) {
-//             el.innerHTML = replaceValue;
-//             setTimeout(countingFunction, 50);
-//         }
-//     }
-
-// })
-
-
-
-
 // copied code from ChatGPT
 
 // Select all counter elements
