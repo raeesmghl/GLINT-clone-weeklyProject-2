@@ -44,19 +44,6 @@ counterEl.forEach((el) => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 document.addEventListener('DOMContentLoaded', function () {
     const targetElements = document.querySelectorAll('.target-element');
 
