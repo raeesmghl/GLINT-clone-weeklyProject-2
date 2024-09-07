@@ -1,7 +1,3 @@
-
-
-// copied code from ChatGPT
-
 // Select all counter elements
 let counterEl = document.querySelectorAll('.counter-box h2');
 
@@ -71,13 +67,9 @@ document.addEventListener('DOMContentLoaded', function () {
         targetElements.forEach((targetElement) => {
 
             const rect = targetElement.getBoundingClientRect();
-
             // Check if the element is in the middle of the screen (approximately)
-
             // did some changes in the original code
-
             if (rect.top <= windowHeight / 1.5 && rect.bottom >= windowHeight / 1.5) {
-
                 targetElement.classList.add('visible');
             }
         })
