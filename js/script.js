@@ -235,7 +235,7 @@ const swiper = new Swiper('.swiper', {
     }
 });
 
-// 
+// swiper js for testimonials section
 const testimonialsSlider = new Swiper('#testimonials', {
     direction: 'horizontal',
     loop: true,
