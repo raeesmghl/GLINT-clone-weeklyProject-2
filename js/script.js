@@ -190,14 +190,7 @@ window.addEventListener('scroll', () => {
 
 
 
-
-
-
-
-
-
-
-
+// swiper js for icons section. 
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
@@ -218,7 +211,7 @@ const swiper = new Swiper('.swiper', {
     // Add space between slides (optional)
     spaceBetween: 50, // Adjust the space between slides if needed
 
-
+    // at different breakpoints, it behaves differently 
     breakpoints: {
         // When the window width is >= 1024px
         1024: {
