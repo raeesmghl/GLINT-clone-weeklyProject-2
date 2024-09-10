@@ -4,17 +4,13 @@ header {
     background-position: top;
     background-attachment: fixed;
     min-height: 100vh;
-    /* display: none; */
 }
 
 #header-content {
     min-height: 100vh;
     width: 100%;
     background-color: rgba(0, 0, 0, .7);
-
     position: relative;
-
-
     display: flex;
     justify-content: space-between;
     align-items: center;
